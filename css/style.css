@@ -73,16 +73,14 @@ header img {
   width: 550px;
   padding: 30px;
   font-size: 28px;
-  /* color: #ff920b; */
-  /* text-shadow: 1px 2px #2b2828; */
-  color: white;
-  text-shadow: 1px 4px #ff910bb0;
 }
 
 .left h1 {
   position: relative;
   top: 70px;
   left: 80px;
+  color: #ff920b;
+  text-shadow: 2px 2px #2b2828;
   z-index: 1;
 }
 
@@ -273,7 +271,7 @@ footer i {
   font-size: 28px;
 }
 
-/* Mobile versions */
+/* Media Queries */
 
 @media (max-width: 991px) {
   /* Main Section */
@@ -343,7 +341,7 @@ footer i {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   /* Header */
   header img {
     width: 150px;
