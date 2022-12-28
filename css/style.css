@@ -354,6 +354,11 @@ footer i {
     flex-direction: column;
   }
 
+  .main .left {
+    width: 100%;
+    max-width: 380px;
+  }
+
   .left .square {
     display: none;
   }
