@@ -21,3 +21,8 @@ function scrollToPos(sectionTo) {
     behavior: "smooth",
   });
 }
+
+AOS.init({
+  duration: 2000,
+  once: true,
+});
